@@ -1,0 +1,80 @@
+.Formulario{
+    width: 100%;
+    height: 680px;
+    text-align: center;
+    background-color: coral;
+}
+
+.Mapas{
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    background-color: rgb(41, 106, 228);
+    padding: 5px;
+}
+
+.Tablas{
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    background-color: rgb(8, 153, 172);
+    padding: 5px;
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: rgb(227, 230, 57);
+    border-radius:10px;
+    border: 4px, solid, rgb(235, 116, 18);
+    transition: width 0.4s ease;
+}
+input[type=password]{
+    width: 30%;
+    padding: 10px;
+    border: 2px, solid, rgb(235, 116, 18);
+    border-radius:10px;
+    transition: width 0.4s ease;
+}
+input[type=text]:focus{
+    width: 70%;
+}
+
+.Ubicacion{
+    width: 640px;
+    height: auto;
+    background-color: rgb(45, 233, 28);
+    padding: 10px;
+    text-align: center;
+    margin: auto auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(204, 21, 21);
+}
+
+.Tabla01{
+    width: 640px;
+    height: auto;
+    background-color: rgb(192, 128, 32);
+    padding: 10px;
+    text-align: center;
+    margin: auto auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(1, 221, 100);
+}
+
+table, tr, th, td{
+    border: 1px solid rgb(25, 202, 78);
+    border-collapse: collapse;
+    padding: 10px 30px;
+}
+
+table{
+    width: 100%;
+}
+th{
+    background-color: blueviolet;
+    color: aquamarine;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Formularios</title>
+    <link rel="stylesheet" href="CSS/stilos.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="Formulario">
+            <form autocomplete="on" name="Registro">
+                <label>Ingrese Nombre*</label>
+                <br><input type="text" required maxlength="50" minlength="10" autocomplete="additional-name" autofocus placeholder="Ingresa Nombre y Apellido">
+                <br>
+                <label>Mensaje</label>
+                <br>
+                <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit">
+                <br>
+                <input type="number"min="10" max="100" step="10">
+                <br>
+                <input type="range" min="18" max="50" step="1">
+                <br>
+                <input type="password" placeholder="Ingresa Contraseña">
+                <br>
+                <input type="radio" name="Opciones">
+                <label>Masculino</label>
+                <input type="radio" name="Opciones">
+                <label>Femenino</label>
+                <br>
+                <h3>Seleciona los productos que te gustan
+                </h3>
+                <br>
+                <input type="checkbox" name="Manzana">
+                <label>Manzana</label>
+                <input type="checkbox" name="Fresa">
+                <label>Fresa</label>
+                <input type="checkbox" name="Naranja">
+                <label>Naranja</label>
+                <br>
+                <h3>Selecional el pais</h3>
+                <br>
+                <select name="Paises" id="Paises">
+                    <option value="Peru">Peru</option>
+                    <option value="fRANCIA">Francia</option>
+                    <option value="Colombia">Colombia</option>
+
+                </select>
+                <br>
+                <p>Seleciona una Fecha:
+                    <br>
+                    <input type="date">
+                </p>
+            </form>
+        </section>
+        <section class="Mapas">
+            <div class="Ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8060719535997!2d-77.0274112248577!3d-12.125417443370344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81c605ea5e1%3A0x17328a8b49d37914!2sISIL%20-%20Miraflores!5e0!3m2!1ses-419!2spe!4v1730136155381!5m2!1ses-419!2spe" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="Tablas">
+            <div class="Tabla01">
+                <table>
+                    <caption>Lista de Productos</caption>
+                   <tr>
+                         <th>Codigo</th>
+                         <th>Nombre</th>
+                         <th>Precio</th>
+                   </tr>
+                   <tr>
+                        <td>P001</td>
+                        <td>Arroz</td>
+                        <td>s/ 5.00</td>
+                   </tr>
+                   <tr>
+                        <td>P002</td>
+                        <td>Azucar</td>
+                        <td>S/ 8.00</td>
+                   </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
